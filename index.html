@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MaxGazley</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap" rel="stylesheet">
+</head>
+
+
+<body id="bodyText">
+    <header>
+        <nav id="desktopMenu">
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+             </ul>
+        </nav>
+        <nav id="mobileMenu">
+        </nav>
+    </header>
+    
+<main>
+    <section id="hero">
+        <div><h1 class="satisfy-regular"style="font-size: 70px;">Max Gazley</h1></div>
+        <div class="herocontainer">
+            <div class="heroitem"><a href="#"><img src="/MaxMain.webp" alt="Picture of myself"></a></div>
+            <div class="heroitem"><p style="font-size: 25px;">This website should show almost everything I am capable of.</p></div>
+        </div>
+    </section> 
+    <section id="about">
+        <div class="sectionstart"><h2>Who am I?</h2></div>
+        <div class="aboutgrid">
+            <div class="aboutitem"><p id="abouttext">I am a 24 year old student at NSCC. Although I am taking a course in IT Programming, which I love, one of my biggest hobbies is cars and motorsports.</p></div>
+            <div class="aboutitem"><img src="/IMSA-Virginia-2018.webp" alt="IMSA racing"></div>
+            <div class="aboutitem" style="height: 250px;"><img src="/maxhockey.webp" alt="Me playing hockey"></div>
+            <div class="aboutitem"><p id="abouttext">I've always been an enjoyer of team sports aswell, taking a liking to playing and watching hockey and baseball. My favourite teams being the Canucks and the Blue Jays respectively</p></div>
+            <div class="aboutitem"><p id="abouttext">I was born and raised Ontario and I moved to Nova Scotia in the beginning of 2023.</p></div>
+            <div class="aboutitem"><img src="/skyline.webp" alt="Toronto Skyline"></div>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="sectionstart"><h2>What am I good at?</h2></div>
+        <div style="width: fit-content; margin: auto;"><p>Here is a list of the skills I'm learning in school:</p></div>
+        <div class="gridcontainer">
+            <div class="griditem"><img src="/css3.webp" alt="CSS3 Logo"><p style="font-size: 17px;">CSS3</p></div>
+            <div class="griditem"><img src="/html-5.webp" alt="HTML5 Logo"><p style="font-size: 17px;">HTML5</p></div>
+            <div class="griditem"><img src="/python.webp" alt="Python Logo"><p style="font-size: 17px;">PYTHON</p></div>
+            <div class="griditem"><img src="/sql-server.webp" alt="SQL Logo"><p style="font-size: 17px;">SQL/NoSQL</p></div>
+            <div class="griditem"><img src="/java-script.webp" alt="JavaScript Logo"><p style="font-size: 17px;">JAVA</p></div>
+            <div class="griditem"><button class="linuxpic" onclick="document.getElementById('imgClickAndChange').src = 'Rookie.webp';"><img id="imgClickAndChange" src="/linux.webp" alt="Linux Logo"></button><button class="linuxpic" onclick="document.getElementById('imgClickAndChange').src = 'linux.webp';"><p style="font-size: 17px;">LINUX</p></button></div>
+        </div>
+    </section>
+    <section id="resume">
+        <div class="sectionstart"><h2>Where is your resume?</h2></div>
+        <div style="margin: auto; width: fit-content;"><p>Although I hope this site shows my skills thoughly, I do have a downloadable resume.</p></div>
+        <div style="width: fit-content; margin:auto;"><button type="button" id="myButton" onclick="alert('link to resume later hopefully')">Click Here For My Resume!</button></div>
+    </section>
+    <section id="contact">
+        <div class="sectionstart"><h2>How do I contact you?</h2></div>
+        <div style="text-align: center;"><p>Feel free to contact me anyway you'd like!</p></div>
+        <div class="contactgrid">
+            <div class="contactgriditem"><a href="#"><img src="/gmail.webp" alt="Email me!" onclick="alert('My Email is: qwerty@qwerty.com')"></a></div>
+            <div class="contactgriditem"><a href="#"><img id="linkedin"src="/linkedin.webp" alt="Add me on LinkedIn!" onclick="alert('My LinkedIn is: qwertyqwerty')"></a></div>
+            <div class="contactgriditem"><a href="#"><img src="/phone.webp" alt="Call me!" onclick="alert('My Phone number is: 123-456-7890')"></a></div>
+        </div>
+    </section>
+
+</main>
+
+</body>
+
+<footer>
+</footer>
+    
+
+
+</html>
