@@ -255,3 +255,8 @@ h2 {
 .heroitem {
     width: 350px;
 }
+
+.footer{
+    text-align: center;
+    justify-content: center;
+}
